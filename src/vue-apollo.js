@@ -5,7 +5,7 @@ import { InMemoryCache } from "apollo-cache-inmemory";
 // HTTP connection to the API
 const httpLink = createHttpLink({
   // You should use an absolute URL here
-  uri: process.env.VUE_APP_GRAPHQL_URL || "https://zaralundgren-backend.onrender.com/graphql"
+  uri: process.env.VUE_APP_GRAPHQL_URL || "https://zaralundgren.onrender.com/graphql"
 });
 
 // Cache implementation
